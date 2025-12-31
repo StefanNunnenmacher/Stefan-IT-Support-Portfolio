@@ -1,0 +1,25 @@
+Abfrage User: PS C:\Users\Stefan> whoami
+Rechnername: laptop-9b15imbq\stefan
+Aktuelles Verzeichnis: PS C:\Users\Stefan>
+LS Daten im Verzeichnis anzeigen: PS C:\Users\Stefan> ls
+LS -Force : Alle Daten, Ordner und versteckte Dateien anzeigen
+Alle Benutzer anzeigen: PS C:\Users\Stefan> ls C:\Users
+Alle Benutzer und versteckte anzeigen: PS C:\Users\Stefan> ls -Force C:\Users
+Alle Benutzerkonten anzeigen: PS C:\Users\Stefan> Get-LocalUSer
+Wo genau bin ich?: Get-Location
+Kurzform: pwd
+In ein anderen Verzeichnis/Ordner wechseln: cd Downloads
+Wichtig: immer schauen wo man sich befindet mit pwd! dann wechseln zu 
+
+PS C:\Users> cd C:\Users\Stefan
+PS C:\Users\Stefan> cd Desktop
+PS C:\Users\Stefan\Desktop>
+
+Jetzt ist man im Desktop
+Informationen über den Computer: Get-ComputerInfo
+Alle Verzeichnisse als Baum anzeigen lassen: tree
+rm IT1 : Ordner löschen
+mkdir: ordner erstellen
+Ordner umbenennen: rename-Item , dann new Name eingeben
+Kommandozeile löschen: clear
+Neue Datei erstellen (Textdatei) : New-Item -Path "Powershell_Grundlagen.txt" -ItemType File
